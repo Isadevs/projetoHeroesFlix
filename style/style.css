@@ -1,0 +1,101 @@
+/* reset css */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+
+body{
+    font-family: Georgia, serif;
+    color: black;
+}
+/* menu */
+
+.menu{
+    background: black;
+    padding: 20px 0;
+}
+
+.menu-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /*max-width: 1200px; max-width, responsividade */
+    /* margin: 0 auto; Calcula automaticamente para os elementos se separarem e também a responsividade */
+
+    /* 1º Valor calcula cima e baixo segundo valor esquerda direita*/
+}
+
+/*.menu-container::after, .menu-container::before{
+    content:'';
+    display: table;
+    clear: both;
+}*/
+    
+a.menu-logo{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 50px;
+    display: block;
+    float: left;
+    margin-left: 95px;
+}
+
+.menu-nav{
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 95px;
+    padding: 5px;
+}
+
+.menu-nav li{
+    display: inline-block;
+}
+
+.menu-nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.125em /*Melhora a responsividade do site*/;
+}
+
+/* intro */
+
+
+.intro{
+    background: url('../img/wonderwoman.jpg') no-repeat center center;
+    background-size: cover; melhora a responsividade
+    padding: 150px 0;
+    color: #fff;
+    height: 1000px;
+    
+}
+
+.intro h1{
+    text-transform: uppercase;  /*bota em maiúsculo automático*/
+    font-size: 4em;
+    text-align: end;
+    margin-right: 95px;
+    padding-top: 50px;
+}
+
+.intro p{
+    background-size: cover;
+    font-style: italic;
+    font-size: 1.125em;
+    text-align: justify;
+    margin-right: 95px;
+    margin-left: 800px;
+
+}
+
+.botao{
+    margin-top: 60px;
+    margin-left: 900px;
+    
+}
